@@ -11,7 +11,6 @@
   inputs.src-osutil-master.ref   = "refs/heads/master";
   inputs.src-osutil-master.owner = "juancarlospaco";
   inputs.src-osutil-master.repo  = "nim-osutil";
-  inputs.src-osutil-master.dir   = "";
   inputs.src-osutil-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
